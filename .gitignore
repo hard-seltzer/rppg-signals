@@ -1,0 +1,18 @@
+# Ignore video files
+*.avi
+*.mp4
+*.mov
+*.wmv
+*.flv
+*.mkv
+
+# Ignore other common files and directories
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+*.log
