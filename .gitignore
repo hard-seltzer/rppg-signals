@@ -16,3 +16,7 @@ __pycache__/
 venv/
 env/
 *.log
+
+# Ignore data folder and rppg_signal.txt inside rppg directory
+rppg/data/
+rppg/rppg_signal.txt

@@ -102,6 +102,10 @@ else:
     heart_rate = 60.0 / np.mean(peak_intervals)
     print(f"Estimated Heart Rate: {heart_rate:.2f} BPM")
     
+    # Save rPPG signal data
+    np.savetxt('rppg_signal.txt', rppg_signal)
+    print("rPPG signal data saved to rppg_signal.txt")
+    
     plt.close()  # Close the figure when done
 
 cap.release()
